@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { NewItemFormContainer, NewItemButton, NewItemInput } from './styles';
-import { useFocus } from './utils/useFocus';
+import React, { useState } from 'react'
+import { NewItemFormContainer, NewItemButton, NewItemInput } from './styles'
+import { useFocus } from './utils/useFocus'
 
 type NewItemFormProps = {
     onAdd(text: string): void
